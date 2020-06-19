@@ -16,7 +16,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-       /* BottomNavigationView navView = findViewById(R.id.nav_view);
+        BottomNavigationView navView = findViewById(R.id.nav_view);
+        //实现底部导航
         navView.setItemIconTintList(null);// 取消底部图片着色
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
@@ -25,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
 
-        NavigationUI.setupWithNavController(navView, navController);*/
+        NavigationUI.setupWithNavController(navView, navController);
     }
 
 }
