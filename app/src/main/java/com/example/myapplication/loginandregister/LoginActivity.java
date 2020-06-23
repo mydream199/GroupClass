@@ -1,17 +1,21 @@
-package com.example.myapplication;
+package com.example.myapplication.loginandregister;
 
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.myapplication.MainActivity;
+import com.example.myapplication.R;
+import com.example.myapplication.dbcontroller.DBOpenHelper;
+import com.example.myapplication.dbcontroller.User;
 
 import java.util.ArrayList;
 
@@ -44,20 +48,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     }
 
 
-    /**
-     * 都声明并实例化之后
-     * 需要为实例化的这些对象设置行为
-     * 在写 activity_login.xml 的时候
-     * 有些控件 Button、ImageView、TextView 都有一个属性：
-     * android:onClick="onClick"
-     * 其实这也是开源库ButterKnife中的东西
-     * 人家不仅解决了findViewById代码过长的问题，
-     * 还解决了setOnClickListener(new View.OnClickListener() {}代码过长的问题
-     * 让你不再写findViewById、setOnClickListener
-     * 所以人家叫 ButterKnife 黄油刀
-     * 就是专门管切割长代码的
-     * Talk is cheap, show me your code.
-     */
 
 
     public void onClick(View view) {

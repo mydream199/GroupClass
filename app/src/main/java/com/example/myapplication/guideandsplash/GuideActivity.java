@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.guideandsplash;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,6 +13,9 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
+
+import com.example.myapplication.loginandregister.LoginActivity;
+import com.example.myapplication.R;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -41,7 +44,7 @@ public class GuideActivity extends AppCompatActivity {
         btnStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(GuideActivity.this,LoginActivity.class));
+                startActivity(new Intent(GuideActivity.this, LoginActivity.class));
                 finish();
             }
         });

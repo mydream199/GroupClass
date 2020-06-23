@@ -1,11 +1,9 @@
-package com.example.myapplication;
+package com.example.myapplication.loginandregister;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
-
-import com.google.android.material.bottomsheet.BottomSheetBehavior;
 
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.dbcontroller;
 /**
  * Created by littlecurl 2018/6/24
  */
