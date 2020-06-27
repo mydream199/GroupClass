@@ -4,14 +4,16 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:icon="@mipmap/icon"
+        android:label="健康饮食"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:screenOrientation="portrait"
         android:theme="@style/AppTheme">
-        <activity android:name=".loginandregister.LoginActivity"></activity>
-        <activity android:name=".loginandregister.RegisterActivity"></activity>
-        <activity android:name=".guideandsplash.GuideActivity"></activity>
+        <activity android:name=".food_grid.FoodDescActivity"></activity>
+        <activity android:name=".loginandregister.LoginActivity" />
+        <activity android:name=".loginandregister.RegisterActivity" />
+        <activity android:name=".guideandsplash.GuideActivity" />
         <activity android:name=".guideandsplash.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,7 +21,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

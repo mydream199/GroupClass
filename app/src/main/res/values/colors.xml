@@ -13,7 +13,13 @@
 
     <color name="main_white">#fff</color>
 
+    <color name="white">#fff</color>
+
+    <color name="dividerColor">#C5C5C5</color>
+
     <color name="main_blue">#2196F3</color>
 
     <color name="main_yellow">#FEC62E</color>
+
+    <color name="pink">#FCE6C9</color>
 </resources>

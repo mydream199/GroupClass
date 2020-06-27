@@ -3,17 +3,17 @@
 
     <item
         android:id="@+id/homeFragment"
-        android:icon="@drawable/icon_selector"
-        android:title="@string/title_home" />
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="食物营养表" />
 
     <item
         android:id="@+id/aroundFragment"
-        android:icon="@drawable/icon_selector"
-        android:title="@string/title_dashboard" />
+        android:icon="@mipmap/icon"
+        android:title="食物搭配表" />
 
     <item
         android:id="@+id/moreFragment"
-        android:icon="@drawable/icon_selector"
-        android:title="@string/title_notifications" />
+        android:icon="@drawable/ic_user"
+        android:title="关于我们" />
 
 </menu>
